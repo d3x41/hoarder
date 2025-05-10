@@ -42,8 +42,6 @@ From Docker:
       "command": "docker",
       "args": [
         "run",
-        "-p",
-        "3000:3000",
         "-e",
         "KARAKEEP_API_ADDR=https://<YOUR_SERVER_ADDR>",
         "-e",
